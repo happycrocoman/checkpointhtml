@@ -1,115 +1,117 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet HTML</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Bienvenue dans mon projet HTML</h1>
-        <h6>D'abord, écoute moi ça rek!!</h6>
-        <audio controls> 
+        <h1>Bienvenue dans mon projet HTML remodelé</h1>
+        <h2>D'abord, écoute moi ça rek!!</h2>
+        <audio controls>
             <source src="AUD-20190316-WA0000.mp3" type="audio/mpeg">
         </audio>
-        <h6>Ensuite, regarde moi ça rek!!</h6>
-        <video controls> 
+        <h2>Ensuite, regarde moi ça rek!!</h2>
+        <video controls>
             <source src="VID-20181111-WA0038.mp4" type="video/mp4">
         </video>
-   
-        <p>
-        <h2>Mes balises sémantiques</h2>
-        <nav>
-        <h3>Le rangemnt non ordonné</h3>   
-            <ul type = "disc">
-                <li> <a href="">Accueil</a> </li>
-                <li> <a href="">A propos</a> </li>
-            </ul>
-            <ul type = "circle">
-                <li> <a href="">Travail</a> </li>
-                <li> <a href="">CV</a> </li>
-            </ul>
-            <ul type = "square">
-                <li> <a href="">Contact</a> </li>
-            </ul>
-        </nav>
     </header>
-    <main> 
-        </p>
-        <p>
-         <nav>
-        <h3>Le rangement ordonné</h3>
-            <ol type ="A">
+    <main>
+        <p><h2>Mes balises sémantiques</h2></p>
+            <nav>
+                <h3>Le rangement non ordonné</h3>
+                <ul type="disc"></ul>
+                    <li> <a href="">Accueil</a> </li>
+                <ul type="circle"></ul>
+                    <li> <a href="">A propos</a> </li>
+                <ul type="circle"></ul>
+                    <li> <a href="">Travail</a> </li>
+                <ul type="square"></ul>
+                    <li> <a href="">CV</a> </li>
+                <ul type="square"></ul>
+                    <li> <a href="">Contact</a> </li>
+            </nav>
+        <nav>
+            <h3>Le rangement ordonné</h3>
+            <ol type="A">
                 <li> Accueil </li>
-                <li> A propos </li>
             </ol>
-            <ol type ="a">
+            <ol type="a">
                 <li> Travail </li>
             </ol>
-            <ol type ="I">
+            <ol type="I">
                 <li> CV </li>
             </ol>
-            <ol type ="1">
+            <ol type="1">
                 <li> Contact </li>
             </ol>
-         </nav>   
-        </p>
-    <section><h1>About</h1>
-        <h4>A propos de moi</h4>
-    </section>
-    <section><h1>Work</h1>
-        <h4>De temps en temps</h4>
-    </section>
-    <section><h1>Resume</h1></section>
-    <section><h1>Contact</h1></section>
-    <section>
-        <h6>Une section peut être un ensemble de divisions, d'articles, de formulaires ou autres</h6>
-        <Div>
-        <form action="">
-            <!--champ prénom et nom sur la même ligne-->
-            <label>Prénom:</label>
-            <input type="text" placeholder="Insèrez votre prénom">
-            <label>Nom:</label>
-            <input type="text" placeholder="Insèrez votre nom">
-        </form>
-        <Form>
-            <label>Date de naissance:</label>
-            <input type="Date" placeholder="Insèrez votre date de naissance">
-        </form>
-            <!--champ mail-->
-        <form action="">
-            <label>Email:</label>
-            <input type="email"placeholder="Insèrez votre email">
-        </form>
-        <form action="">
-            <label>Mot de passe:</label>
-            <input type="Password"placeholder="Insèrez votre mot de passe">
-        </form>
-        <form action="">
-            <label>Envoyez:</label>
-            <input type="Submit"placeholder="Veuillez">
-        </form>
-            <article>
-                <a href="">Comment mincir en 2 jours</a>
-            </article>
-            <article>
-                <table border="4">
-                    <tr> 
-                      <th>1er jour</th>
-                      <th>2ème jour 5</th>
-                    </tr>
-                    <tr>
-                      <td>Tu ne manges pas</td>
-                      <td>Tu bois seulement</td>
-                    </tr>
-                </table>
-            </article>
-        </Div>
-    </section>
-</main>
-<footer>
+        </nav>
+        <section>
+            <h1>About</h1>
+            <h4>A propos de moi</h4>
+        </section>
+        <section>
+            <h1>Work</h1>
+            <h4>De temps en temps</h4>
+        </section>
+        <section>
+            <h1>Resume</h1>
+        </section>
+        <section>
+            <h1>Contact</h1>
+        </section>
+        <section>
+            <h6>Une section peut être un ensemble de divisions, d'articles, de formulaires ou autres</h6>
+            <Div>
+                <form action="">
+                    <!--champ prénom et nom sur la même ligne-->
+                    <label>Prénom:</label>
+                    <input type="text" placeholder="Insèrez votre prénom">
+                    <label>Nom:</label>
+                    <input type="text" placeholder="Insèrez votre nom">
+                </form>
+                <Form>
+                    <label>Date de naissance:</label>
+                    <input type="Date" placeholder="Insèrez votre date de naissance">
+                </form>
+                <!--champ mail-->
+                <form action="">
+                    <label>Email:</label>
+                    <input type="email" placeholder="Insèrez votre email">
+                </form>
+                <form action="">
+                    <label>Mot de passe:</label>
+                    <input type="Password" placeholder="Insèrez votre mot de passe">
+                </form>
+                <form action="">
+                    <label>Envoyez:</label>
+                    <input type="Submit" placeholder="Veuillez">
+                </form>
+                <article>
+                    <a href="">Comment mincir en 2 jours</a>
+                </article>
+                <article>
+                    <table border="4">
+                        <tr>
+                            <th>1er jour</th>
+                            <th>2ème jour</th>
+                        </tr>
+                        <tr>
+                            <td>Tu ne manges pas</td>
+                            <td>Tu ne manges pas encore</td>
+                        </tr>
+                    </table>
+                </article>
+            </Div>
+        </section>
+    </main>
+    <footer>
         <p>© Réalisé par moi</p>
-</footer>
+    </footer>
 </body>
+
 </html>
